@@ -6,7 +6,7 @@ import DarkMode from './DarkMode';
 
 const Navbar = () => {
   return (
-    <div className="shadow-md bg-green-200 dark:bg-gray-900 dark:text-white duration-200">
+    <div className="sticky top-0 z-9999 shadow-md bg-green-200 dark:bg-gray-900 dark:text-white duration-200">
       <div className="py-3 lg:py-2">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-6 ml-4">
