@@ -64,7 +64,7 @@ export default function App() {
   };
 
   return (
-    <div className="container mx-auto p-4 bg-gray-200">
+    <div className="mx-auto px-20 p-4 bg-gray-200 dark:bg-gray-800 dark:text-white">
       <h1 className="text-3xl font-semibold text-center mb-4">Starting Lineup</h1>
 
       {/* Chọn sơ đồ */}
@@ -93,7 +93,7 @@ export default function App() {
           onKeyDown={onKeyDownInput}
         />
         <button
-          className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+          className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 dark:bg-gray-500 dark:hover:bg-gray-700"
           onClick={onAddBtnClick}
         >
           {editingIndex !== null ? "Cập nhật" : "Thêm"}
