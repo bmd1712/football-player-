@@ -1,11 +1,11 @@
 import React from 'react'
-import mu from '../../assets/web/manchester-united (1).png'
-import real from '../../assets/web/real-madrid.png'
-import psg from '../../assets/web/paris-saint-germain.png'
-import logoc1 from '../../assets/web/championleague.png'
-import location from '../../assets/web/location.png'
-import lineup from '../../assets/web/lineup.png'
-import ticket from '../../assets/web/tickets.png'
+import mu from '../../../../assets/web/manchester-united (1).png'
+import real from '../../../../assets/web/real-madrid.png'
+import psg from '../../../../assets/web/paris-saint-germain.png'
+import logoc1 from '../../../../assets/web/championleague.png'
+import location from '../../../../assets/web/location.png'
+import lineup from '../../../../assets/web/lineup.png'
+import ticket from '../../../../assets/web/tickets.png'
 
 const Banner = () => {
   return (

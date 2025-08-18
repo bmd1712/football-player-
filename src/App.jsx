@@ -1,25 +1,15 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-import Services from './components/Services/Services'
-import Banner from './components/Banner/Banner'
-import AppStore from './components/AppStore/AppStore'
-import Comments from './components/Comments/Comments'
-import Footer from './components/Footer/Footer'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from "./pages/home/Home"
+import Lineup from "./pages/lineup/Lineup"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Navbar/>
-      <Hero/>
-      <Services/>
-      <Banner/>
-      <AppStore/>
-      <Comments/>
-      <Footer/>
-    </>
+    <Router basename="/home">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/lineup" element={<Lineup />} />
+      </Routes>
+    </Router>
   )
 }
 

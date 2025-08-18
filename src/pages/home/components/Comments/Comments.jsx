@@ -31,7 +31,7 @@ const Comments = () => {
     slidesToShow:1,
     slideToScroll:1,
     autoplay: true,
-    autoplaySpeed:2000,
+    autoplaySpeed:5000,
     cssEase: "linear",
     pauseOnHover: true,
     pauseOnFocus: true,

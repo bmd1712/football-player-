@@ -1,8 +1,9 @@
 import React from 'react'
-import logo from '../../assets/web/football.png';
-import mu from '../../assets/web/manchester-united (1).png'
-import real from '../../assets/web/real-madrid.png'
-import psg from '../../assets/web/paris-saint-germain.png'
+import logo from '../../../../assets/web/football.png';
+import mu from '../../../../assets/web/manchester-united (1).png'
+import real from '../../../../assets/web/real-madrid.png'
+import psg from '../../../../assets/web/paris-saint-germain.png'
+import { useNavigate } from "react-router-dom";
 
 const ImageList = [
     {
@@ -30,6 +31,7 @@ const bgImage={
 
 const Hero = () => {
     const [imageId, setImageId] = React.useState(real);
+    const navigate = useNavigate();
   return (<>
   <div
   style={bgImage}
@@ -46,7 +48,8 @@ const Hero = () => {
                     Nhưng không anh chọn Real Madrid và trở thành Tám Nghiệp<br />
                 </p>
                 <div>
-                    <button className="bg-gradient-to-r from-lime-400 to-sky-600 text-white px-4 py-1 rounded-2xl hover:scale-110 duration-300 flex items-center gap-2">
+                    <button className="bg-gradient-to-r from-lime-400 to-sky-600 text-white px-4 py-1 rounded-2xl hover:scale-110 duration-300 flex items-center gap-2"
+                            onClick={() => navigate("/lineup")}>
                         LINEUP BUILD
                     </button>
                 </div>

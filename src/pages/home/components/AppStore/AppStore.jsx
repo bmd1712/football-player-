@@ -1,7 +1,7 @@
 import React from 'react'
-import AppStoreImg from '../../assets/web/appstore.png'
-import PlayStoreImg from '../../assets/web/playstore.png'
-import GIFTicket from '../../assets/web/ticket.gif'
+import AppStoreImg from '../../../../assets/web/appstore.png'
+import PlayStoreImg from '../../../../assets/web/playstore.png'
+import GIFTicket from '../../../../assets/web/ticket.gif'
 
 const AppStore = () => {
   return (

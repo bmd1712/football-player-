@@ -1,7 +1,7 @@
 import React from 'react'
-import mu from '../../assets/web/manchester-united (1).png'
-import real from '../../assets/web/real-madrid.png'
-import psg from '../../assets/web/paris-saint-germain.png'
+import mu from '../../../../assets/web/manchester-united (1).png'
+import real from '../../../../assets/web/real-madrid.png'
+import psg from '../../../../assets/web/paris-saint-germain.png'
 
 const ServicesData = [
     {
