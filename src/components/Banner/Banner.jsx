@@ -17,7 +17,7 @@ const Banner = () => {
             >
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
                     {/* image section */}
-                    <div className='flex items-center xl:py-16'>
+                    <div className='flex items-center xl:py-16 '>
                         <img src={logoc1}
                         alt="" 
                         className='max-w-[250px] w-full mx-auto drop-shadow-amber-100'/>

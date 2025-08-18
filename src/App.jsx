@@ -5,6 +5,7 @@ import Services from './components/Services/Services'
 import Banner from './components/Banner/Banner'
 import AppStore from './components/AppStore/AppStore'
 import Comments from './components/Comments/Comments'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Banner/>
       <AppStore/>
       <Comments/>
+      <Footer/>
     </>
   )
 }

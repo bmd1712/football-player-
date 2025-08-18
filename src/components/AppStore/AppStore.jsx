@@ -6,7 +6,7 @@ import GIFTicket from '../../assets/web/ticket.gif'
 const AppStore = () => {
   return (
     <>
-    <div className='py-14 dark:bg-gray-700 mx-6 sm:mx-12'>
+    <div className='py-14 px-6 dark:bg-gray-700 '>
         <div className=''>
             <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-4'> 
                 <div className='space-y-6 max-w-xl mx-auto'>
